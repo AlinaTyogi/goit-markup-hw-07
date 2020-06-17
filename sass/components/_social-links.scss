@@ -1,0 +1,32 @@
+.socials-link {
+  display: block;
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: $socialsBorderRadius;
+
+  transition: background-color $mainTransition;
+  &:hover,
+  &:focus {
+    background-color: $primaryHoverColor;
+    cursor: pointer;
+  }
+  .member & {
+    color: #afb1b8;
+    transition: all $mainTransition;
+  }
+  .member &:hover,
+  .member &:focus {
+    color: $primaryBgColor;
+  }
+}
+
+.socials-icon {
+  fill: $primaryBgColor;
+
+  .member & {
+    fill: currentColor;
+  }
+}
