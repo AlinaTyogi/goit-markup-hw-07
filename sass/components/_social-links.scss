@@ -7,7 +7,8 @@
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: $halfBorderRadius;
 
-  transition: background-color $mainTransition;
+  transition: all $mainTransition;
+
   &:hover,
   &:focus {
     background-color: $primaryHoverColor;
@@ -20,6 +21,7 @@
   .member &:hover,
   .member &:focus {
     color: $primaryBgColor;
+    background-color: $primaryHoverColor;
   }
 }
 
