@@ -6,6 +6,7 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
 .menu {
   @extend %headerDisplayFlexProperties;
 }
@@ -92,4 +93,9 @@
   &:hover {
     fill: $primaryHoverColor;
   }
+}
+
+/* нижняя граница для Хедер в Портфолио */
+.page-header-accent {
+  border-bottom: 1px solid #ececec;
 }

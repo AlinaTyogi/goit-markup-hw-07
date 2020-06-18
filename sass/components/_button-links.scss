@@ -25,4 +25,9 @@
   &:active {
     border: 0.5px groove $secondaryBgColor;
   }
+  &:hover button[type='submit'],
+  &:focus button[type='submit'],
+  &:active button[type='submit'] {
+    background: #188ce8;
+  }
 }
